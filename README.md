@@ -38,7 +38,7 @@ You should only edit files [`network_ontario.pl`](network_ontario.pl), [`EXERCIS
 
 **Late submissions & extensions:** A penalty of 10% of the maximum mark per day will apply to late assignments up to a maximum of five days, and 100% penalty thereafter. Extensions will only be permitted in _exceptional_ circumstances under RMIT policy (e.g., health or unexpected emergency issues).
 
-**We are here to help!:**But we don't know you need help unless you tell us. We expect reasonable effort from your side, but if you get stuck or have doubts, please seek help (lectures, workshops, forum, consultation time). Remember, if in doubt whether a questions is appropriate, you can make a *PRIVATE* post a to the teaching staff.
+**We are here to help!:** But we don't know you need help unless you tell us. We expect reasonable effort from your side, but if you get stuck or have doubts, please seek help (lectures, workshops, forum, consultation time). Remember, if in doubt whether a questions is appropriate, you can make a *PRIVATE* post a to the teaching staff.
 
 **Silent Policy:** A silent policy will take effect 2 days before this assignment is due. This means that no question about this assignment will be answered, whether it is asked on the newsgroup, by email, or in person after that time.
 

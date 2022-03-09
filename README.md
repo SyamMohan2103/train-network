@@ -64,28 +64,7 @@ When printing/showing solutions, you should do it _via the built-in Prolog answe
 
 Remember and refer to the [argument modes](https://www.swi-prolog.org/pldoc/man?section=preddesc) specify the "direction in which information carried by a predicate argument is supposed to flow" (e.g., `?` means the argument may or may not be instantiated, while `-` refers to an expected output of the predicate).
 
-To get more marks and more robust code, we strongly suggest to **avoid singleton variables!** A singleton variable is a variable that only occurs once in the arguments or the body
-of a predicate and is thus useless. For example in the following two definitions:
-
-```prolog
-calculate(X, Y, Z) :- Z is X+2.
-```
-
-Here `Y` is a singleton variable, and should be prefixed by an underscore `_Y` or replaced by an anonymous variable `_`.
-
-Singleton variables make it harder to read the code and can signal a bug, like in the following example:
-
-```prolog
-inc(FirstNr, Result) :- Result is Firstnr+1.
-```
-
-Here, both `FirstNr`and `Firstnr` will be reported as singleton variables! This is very useful information because it often helps you finding typos, a common source of bugs in Prolog, as shown above (`Firstnr` should have been `FirstNr`).
-
-For documentation style similar to JavaDoc, refer to [SWI-Prolog Source Documentation](https://www.swi-prolog.org/pldoc/doc_for?object=section(%27packages/pldoc.html%27)).
-
-As always, your code should aim to be **easy and effective to read**. Putting every subgoal on a new line is a good idea. Simpler, shorter code is generally best. Each predicate you write should have a concise and clear documentation also indicating its mode of usage. You can find plenty of good documentation examples in the SWI-Prolog manual and even help system (e.g., try `help(append)`).
-
-In terms of **efficiency**, you don't have to go out of your way for optimization purposes. However, the code must aim to be reasonably efficient. You should not be traversing the lists unnecessarily, for example.
+For other general guidelines and recommendations, please  check [`GENERAL_GUIDELNES.md`](GENERAL_GUIDELINES.md).
 
 ## Marking guidelines
 
@@ -102,7 +81,7 @@ Exercises will be _both_ automarked and inspected manually. Both can affect the 
   * it is properly indented (e.g., putting every subgoal on a new line is a good idea), documented, and easy to read/understand;
   * it uses only legal SWI-Prolog features and predicates;
   * it yields redundant answers multiple times;
-  * it uses unification adequately (e.g., `swap([A,B], [B,A]).` rather than `swap(L1, L2) :- L1=[A,B], L2=[B,A].`);
+  * it uses unification adequately;
   * it uses intuitive names for variables and predicates;
   * it uses singleton variables;
   * etc.

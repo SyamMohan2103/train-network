@@ -9,9 +9,9 @@ This is an individual assignment. It has 100 points in total and is worth 20% of
 * **Deadline:** Sunday April 3rd, 2022 @ 11:59pm (end of Week 5)
   * **Preliminary (exercises 1+2; for 2% bonus):** Sunday March 20th, 2022 @ 11:59pm (end of Week 3)
 * **Course Weight:** 30%
-* **Assignment type:**: Individual or groups of two students
+* **Assignment type:** Individual or groups of two students
 * **CLOs covered:** 1-4
-* **Submission method:** by git tagging `final` (before deadline). Use tag `preliminary` if submitting a preliminary submission.
+* **Submission method:** by git tagging `final` (before deadline). Use tag `preliminary` if submitting a preliminary submission
 
 The purpose of this project is familiarize yourself with declarative logic programming for problem solving and knowledge-intensive decision making, and to get you used to thinking as a "logic programmer".
 
@@ -50,11 +50,9 @@ When developing and submitting a solution, please make absolutely sure you adher
 
 * Your code **must compile and run _error-free_ on [SWI-Prolog](https://www.swi-prolog.org/)**. Staff will not debug/fix any code. If your code crashes, it will attract zero marks and will not warrant re-submission.
 
-* Your code **must not contain any personal information**, like your student number or your name. That info should go in the [TEAM.md](TEAM.md) file, as per instructions below. If you use an IDE that inserts your name, student number, or username, you should disable that.
-
 * If you are in a group, you must **use your project Github** repository and GitHub team to collaborate among the members. The group will have write access to the same repository, and also be members of a GitHub team, where members can, and are expected to, engage in discussions and collaboration.
 
-### Language Restrictions and general guidelines
+### Language restrictions and guidelines
 
 For this project, you may not use `;/2`, `forall/2`, `functor`, `arg`, `=..`, `assert/1`, `retract/1`, `fail/0` or any extra logical predicate like `findall/4`, `one/1`, etc. Nevertheless, you may use `=/2`, `\=/2`, `\+/1`, `;/2`, arithmetic symbols, and parentheses for grouping, as well as basic built-in predicates like `member/2`, `append/3`, or `length/2`. You are also allowed to use the _if-then-else_ operator `->` and the _cut_ operator `!`, but be very careful and limited in their use (they often subvert the pure logic programming paradigm and may have unexpected consequences in your code).
 

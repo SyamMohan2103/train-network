@@ -6,13 +6,12 @@ This is an individual assignment. It has 100 points in total and is worth 20% of
 
 * **Course:** [COSC2780/2973 Intelligent Decision Making](https://bit.ly/3JIfyCG) @ Semester 1, 2022
 * **Instructor:** Prof. Sebastian Sardina
-* **Deadlines:**
-  * **Preliminary (exercises 1+2; 2% bonus):** Sunday March 20th, 2022 @ 11:59pm (end of Week 3)
-  * **Final (all):** Sunday April 3rd, 2022 @ 11:59pm (end of Week 5)
+* **Deadline:** Sunday April 3rd, 2022 @ 11:59pm (end of Week 5)
+  * **Preliminary (exercises 1+2; for 2% bonus):** Sunday March 20th, 2022 @ 11:59pm (end of Week 3)
 * **Course Weight:** 30%
 * **Assignment type:**: Individual or groups of two students
 * **CLOs covered:** 1-4
-* **Submission method:** via git tagging: `preliminary` and `final`, respectively.
+* **Submission method:** by git tagging `final` (before deadline). Use tag `preliminary` if submitting a preliminary submission.
 
 The purpose of this project is familiarize yourself with declarative logic programming for problem solving and knowledge-intensive decision making, and to get you used to thinking as a "logic programmer".
 
@@ -34,6 +33,8 @@ This assessment can be done individually or in a group of two.
 You should only edit files [`network_ontario.pl`](network_ontario.pl), [`EXERCISE_01.md`](EXERCISE_01.md), and [`train_network.pl`](train_network.pl). Submitted Prolog giles should compile & run error-free in [SWI-Prolog](https://www.swi-prolog.org/). The code submitted should be internally commented at high standards and be error-free and _never crash_. See below for more information on language restrictions and general guidelines for  quality work.
 
 **Corrections:** From time to time, students or staff find errors (e.g., typos, unclear instructions, etc.) in the assignment specification. In that case, a corrected version of this or other files will be produced, announced, and distributed for you to commit and push into your repository.  Because of that, you are NOT to modify this specification file in any way to avoid conflicts.
+
+**Submissions:** You must submit by _tagging_ the commit you want to submit and be marked. The final submission should use tag `final` and be performed in the `main` branch (so if you were working ona branch, you should merge to `main`). We will clone your repo at exactly that tag in the history. The tagging should be performed before the deadline. Remember that a git _tag_ is a name given to a specific commit in your git history. It is NOT a branch nor a commit message nor a release (none of these will be be counted as tags and no marking will be done on them). For more info on (re)tagging, please read the [these two entries](https://github.com/RMIT-COSC1127-1125-AI21/AI21-DOC/blob/main/FAQ-PACMAN.md#how-do-i-submit-my-project-solution-in-my-git-repository) in the AI Pacman FAQ.
 
 **Late submissions & extensions:** A penalty of 10% of the maximum mark per day will apply to late assignments up to a maximum of five days, and 100% penalty thereafter. Extensions will only be permitted in _exceptional_ circumstances under RMIT policy (e.g., health or unexpected emergency issues).
 
@@ -136,7 +137,7 @@ The easiest way to avoid plagiarism/cheating is:
 
 Unethical behaviour is extremely serious and consequences are painful for everyone. We expect enrolled students/learners to take full **ownership** of your work and **respect** the work of teachers and other students. Any behaviour or code providing an unfair advantage or causing harm will be treated very seriously. We trust you, do not let us down.
 
-For more information on this see [RMIT Academic Integrity](https://www.rmit.edu.au/students/my-course/assessment-results/academic-integrity) and always ask if in doubt.
+For more information on this see [RMIT Academic Integrity](https://www.rmit.edu.au/students/my-course/assessment-results/academic-integrity) and/or my explanation [here](https://docs.google.com/document/d/1AQAU7cH9zgsneTAfig-afBoVfPCi6t1k2nBzFfhdBfc/edit#heading=h.dkgbjt4yqxxm). And, again, always ask if in doubt and we will help out!
 
 ### Course Code of Honour & Fair Play
 

@@ -30,7 +30,7 @@ This assessment can be done individually or in a group of two.
 
 **Your task** is to develop an train network system to support route decision making for different trains in a map, by completing the various exercises below.
 
-You should only edit files [`network_ontario.pl`](network_ontario.pl), [`EXERCISE_01.md`](EXERCISE_01.md), and [`train_network.pl`](train_network.pl). Submitted Prolog giles should compile & run error-free in [SWI-Prolog](https://www.swi-prolog.org/). The code submitted should be internally commented at high standards and be error-free and _never crash_. See below for more information on language restrictions and general guidelines for  quality work.
+You should only edit files [`EXERCISE_01.md`](EXERCISE_01.md), [`network_ontario.pl`](network_ontario.pl), and [`train_network.pl`](train_network.pl). Submitted Prolog files should compile/consult & run error-free in [SWI-Prolog](https://www.swi-prolog.org/). The code submitted should be internally commented at high standards and be error-free and _never crash_. See below for more information on language restrictions and general guidelines for  quality work.
 
 **Corrections:** From time to time, students or staff find errors (e.g., typos, unclear instructions, etc.) in the assignment specification. In that case, a corrected version of this or other files will be produced, announced, and distributed for you to commit and push into your repository.  Because of that, you are NOT to modify this specification file in any way to avoid conflicts.
 
@@ -187,10 +187,11 @@ Place your answers in file [`EXERCISE_01.md`](EXERCISE_01.md).
 
 A **route path** will be described by the list of cities it traverses. For example, if we plan a freight train route from Toronto to Ottawa via Kingston and Brockville, we would write this route as a list `[toronto,kingston,brockville,ottawa]`.
 
-In this part you should implement two predicate tools:
+In this part you should implement the following predicate tools:
 
 - `well_formed/2`, where `well_formed(++Path)` is true whenever `Path` is a well-formed legal path, in that there is a indeed link in the network between each consecutive cities in the path.
-- `acceptable/2`, where `well_formed(++Path, ++Type, ++Duration)` is true whenever `Path` is a well-formed path with no stop-over longer than `Duration` minutes for a train of type `Type`.
+- `non_redundant/1`, where `non_redundant(+++Path)` is true whenever `Path` is _non-redundant_, in that it has no unnecessary loops, that is, it never goes through the same city more than once.
+- `acceptable/2`, where `well_formed(++Path, ++Type, ++Duration)` is true whenever `Path` is a well-formed and non-redundant path and with no stop-over longer than `Duration` minutes for a train of type `Type`.
 
 Place your answers in file [`train_network.pl`](train_network.pl).
 

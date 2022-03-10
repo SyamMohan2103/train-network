@@ -11,29 +11,29 @@ example(X) :- format("Value of variable X: ~w", [X]).
 ## 1. What links have a speed limit of 100 km/h or less?
 
 ```prolog
--? [your solutionhere]
+?- [your solution here]
 ```
 
 ## 2. What cities are directly connected to Toronto?
 
 ```prolog
--? [your solutionhere]
+?- [your solution here]
 ```
 
 ## 3. What pairs of distinct cities can be connected using exactly two links? (Only show the first five answers when running the query.)
 
 ```prolog
--? [your solutionhere]
+?- [your solution here]
 ```
 
 ## 4. On which links can a passenger train travel at its maximum speed?
 
 ```prolog
--? [your solutionhere]
+?- [your solution here]
 ```
 
 ## 5. Which city is the closest one to Toronto?
 
 ```prolog
--? [your solutionhere]
+?- [your solution here]
 ```

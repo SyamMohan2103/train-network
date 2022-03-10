@@ -11,12 +11,16 @@ database.
 @license GPL
 */
 
+/** Exercise 1
+
+This should be done in markdown file EXERCISE_01.md, not here.
+*/
 
 
 
 /** Exercise 2
 
-Write below your solution by defining well_formed/1 and acceptable/2
+Write below your solution by defining well_formed/1, non_redundant/1, and acceptable/2
 */
 
 
@@ -39,5 +43,5 @@ Write below your solution by defining bounded_route/7
 
 /** Exercise 5
 
-Write below your solution by defining bounded_route/7
+Write below your solution by defining fastest_route/6
 */

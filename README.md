@@ -26,7 +26,7 @@ In particular, the project involves incrementally building a system to reason ab
 
 ## Overview
 
-This assessment can be done individually or in a group of two.
+This assessment can be done individually or in a group of two students.
 
 **Your task** is to develop an train network system to support route decision making for different trains in a map, by completing the various exercises below.
 
@@ -182,6 +182,12 @@ Then, for each of questions listed below, write a Prolog query (not a predicate!
 5. Which city is the closest one to Toronto?
 
 Place your answers in file [`EXERCISE_01.md`](EXERCISE_01.md).
+
+### Additional task for teams
+
+If you are doing this in a team, as part of this exercise, you should also produce at least one interesting network instance that you plan to use for testing. You can use a totally fictitious network or rely on any existing real-world network. Use file name [`test_network.pl`](test_network.pl) to encode your test network.
+
+Using file [`test_network.md`](test_network.md), explain what interesting features your network have, and how it is a good network to test your system effectively. You may modify your network example as you progress in the project and re-submit this part in the final submission.
 
 ## Exercise 2: Basic path reasoning tools - 5%
 

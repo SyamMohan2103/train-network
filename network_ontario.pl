@@ -1,4 +1,4 @@
-/** network_ontario.pl Database for Ontarion train network
+/** network_ontario.pl Database for Ontario train network
 
 This files encodes the train network knowledge encoding the
 network in file trainCanada.data

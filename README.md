@@ -195,9 +195,9 @@ A **route path** will be described by the list of cities it traverses. For examp
 
 In this part you should implement the following predicate tools:
 
-- `well_formed/2`, where `well_formed(++Path)` is true whenever `Path` is a well-formed legal path, in that there is a indeed link in the network between each consecutive cities in the path.
-- `non_redundant/1`, where `non_redundant(+++Path)` is true whenever `Path` is _non-redundant_, in that it has no unnecessary loops, that is, it never goes through the same city more than once.
-- `acceptable/2`, where `well_formed(++Path, ++Type, ++Duration)` is true whenever `Path` is a well-formed and non-redundant path and with no stop-over longer than `Duration` minutes for a train of type `Type`.
+- `well_formed/1`, where `well_formed(++Path)` is true whenever `Path` is a well-formed legal path, in that there is a indeed link in the network between each consecutive cities in the path.
+- `non_redundant/1`, where `non_redundant(++Path)` is true whenever `Path` is _non-redundant_, in that it has no unnecessary loops, that is, it never goes through the same city more than once.
+- `acceptable/3`, where `well_formed(++Path, ++Type, ++Duration)` is true whenever `Path` is a well-formed and non-redundant path and with no stop-over longer than `Duration` minutes for a train of type `Type`.
 
 Place your answers in file [`train_network.pl`](train_network.pl).
 
